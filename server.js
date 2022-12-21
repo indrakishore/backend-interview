@@ -20,3 +20,5 @@ app.use('/', api)
 server.listen(port, () => {
     console.log("Server is running at port:", port)
 })
+
+module.exports = { app }
